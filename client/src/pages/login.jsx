@@ -1,12 +1,11 @@
 // Jinshin
 const Login = () => {
+  return (
+    <form>
+      <input type="text" />
+      <button>Submit</button>
+    </form>
+  );
+};
 
-    return (
-        <form>
-            <input type="text" />
-        </form>
-    )
-
-}
-
-export default Login
+export default Login;
